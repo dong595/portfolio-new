@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -33,9 +33,9 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className="">
+      {/* <div className="">
         <img src={me} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };
