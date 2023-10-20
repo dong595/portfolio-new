@@ -1,0 +1,121 @@
+{
+  "skill": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "image": "./src/assets/images/html.png"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "image": "./src/assets/images/css.png"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "image": "./src/assets/images/javascript.png"
+    },
+    {
+      "id": 4,
+      "name": "ReactImg",
+      "image": "./src/assets/images/react.png"
+    },
+    {
+      "id": 5,
+      "name": "Node",
+      "image": "./src/assets/images/Node.png"
+    },
+    {
+      "id": 6,
+      "name": "GitHub",
+      "image": "./src/assets/images/github.png"
+    },
+    {
+      "id": 7,
+      "name": "Tailwind",
+      "image": "./src/assets/images/tailwind.png"
+    },
+    {
+      "id": 6,
+      "name": "Mongo",
+      "image": "./src/assets/images/mongo.png"
+    }
+  ],
+  "about": [
+    {
+      "id": 1,
+      "heading": "About",
+      "title": "Hi. I'm Nguyen Van Dong, nice to meet you. Please take a look around.",
+      "description": " I am a student studying website design at FPT Polytechnic, passionate about learning new technologies and able to work well  in a team."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "portfolio",
+      "description": "This is my portfolio project, written based on the teacher's library and using syntax similar to ReactJs. Includes CRUD Register, log in, check permissions.",
+      "members": 1,
+      "Responsibilities": "developer",
+      "technologies": {
+        "frontend": [
+          {
+            "id": 1,
+            "name": "JavaScript Vanila"
+          },
+          {
+            "id": 2,
+            "name": "HTML5 $ CSS3"
+          }
+        ],
+        "backend": "Fake API (Json-Server-Auth)",
+        "github": "https://github.com/dong595/portfolio-new"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Product Manager",
+      "description": "This is a basic project with CRUD when i learn Angular CLI.",
+      "members": 1,
+      "Responsibilities": "developer",
+      "technologies": {
+        "frontend": [
+          {
+            "id": 1,
+            "name": "Angular CLI"
+          },
+          {
+            "id": 2,
+            "name": "TypeScript"
+          },
+          {
+            "id": 3,
+            "name": "Tailwind CSS"
+          }
+        ],
+        "backend": "Fake API (Json-Server-Auth)",
+        "github": "https://github.com/dong595/Product-Manager"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Project 1",
+      "description": "Basic book selling website ",
+      "members": 6,
+      "Responsibilities": "Design website interface and basic functions such as CRUD connecting API from Backend and displaying products as well as searching for products and shopping carts",
+      "technologies": {
+        "frontend": [
+          {
+            "id": 1,
+            "name": "Angular CLI"
+          },
+          {
+            "id": 2,
+            "name": "TypeScript"
+          }
+        ],
+
+        "github": "https://github.com/Phamtuan19/PRO1014_WE18103_Nhom_6/tree/dongnvph28919"
+      }
+    }
+  ]
+}

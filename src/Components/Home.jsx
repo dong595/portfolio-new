@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -22,13 +23,18 @@ const Home = () => {
           technologies. Seeking a dynamic and professional working environment.{" "}
         </p>
         <div>
-          <button className="flex items-center group gap-2 border-2 my-2 hover:bg-pink-600 hover:border-pink-600 rounded text-white  py-3 px-6">
-            View work{" "}
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight />
-            </span>
-          </button>
+          <Link to="about" smooth={true} duration={500}>
+            <button className="flex items-center group gap-2 border-2 my-2 hover:bg-pink-600 hover:border-pink-600 rounded text-white  py-3 px-6">
+              View work{" "}
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight />
+              </span>
+            </button>
+          </Link>
         </div>
+      </div>
+      <div className="">
+        <img src={me} alt="" />
       </div>
     </div>
   );
