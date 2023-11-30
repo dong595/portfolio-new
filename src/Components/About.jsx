@@ -1,19 +1,21 @@
 import React from "react";
-
+import me from "../assets/images/me.png";
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
-      <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8 pl-4">
+    <div
+      name="about"
+      className="w-full h-screen bg-[#0a192f] text-gray-300 flex justify-center items-center"
+    >
+      <div className="flex flex-col justify-center w-full  items-center h-full">
+        <div className="max-w-[1000px] w-full grid grid-cols-2 lg:block lg:max-w-none md:pl-40  gap-8">
+          <div className="text-right lg:text-left pb-8 pl-4 lg:pl-0">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
               About
             </p>
           </div>
-          <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
+        <div className="max-w-[1000px] lg:max-w-none w-full lg:block grid grid-cols-2 gap-8 md:pl-40 px-4">
+          <div className="text-right lg:text-left text-4xl font-bold">
             <p>
               Hi. I'm Nguyen Van Dong, nice to meet you. Please take a look
               around.
@@ -27,6 +29,13 @@ const About = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="text-white w-full  hidden lg:flex items-center justify-center">
+        <img
+          src={me}
+          className="xl:h-[740px] h-[500px]   mix-blend-lighten bg-contain bg-no-repeat "
+          alt=""
+        />
       </div>
     </div>
   );
